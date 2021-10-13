@@ -1,3 +1,5 @@
+package cn.itcast.chapter02.task01;
+
 public class StoreList {
     public static void main(String[] args) {
         //苹果笔记本
@@ -22,15 +24,15 @@ public class StoreList {
         System.out.println("--------------------------------------商城库存清单----------------------------------------");
         System.out.println("品牌型号           尺寸        价格              配置                     库存数");
         //表中
-        System.out.println(macBrand+"      "+macSize+"      "+macPrice+"      "+macConfig+"          "+macCount);
-        System.out.println(thinkpadBrand+"    "+thinkpadSize+"      "+thinkpadPrice+"      "+thinkpadConfig+"            "+thinkpadCount);
-        System.out.println(asusBrand+"     "+asusSize+"      "+asusPrice+"       "+asusConfig+"         "+asusCount);
+        System.out.println(macBrand + "      " + macSize + "      " + macPrice + "      " + macConfig + "          " + macCount);
+        System.out.println(thinkpadBrand + "    " + thinkpadSize + "      " + thinkpadPrice + "      " + thinkpadConfig + "            " + thinkpadCount);
+        System.out.println(asusBrand + "     " + asusSize + "      " + asusPrice + "       " + asusConfig + "         " + asusCount);
         System.out.println("---------------------------------------------------------------------------------------");
         //表尾
-        int totalCount = macCount+thinkpadCount+asusCount;
-        double totalPrice = (macPrice*macCount)+(thinkpadPrice*thinkpadCount)+(asusPrice*asusCount);
-        System.out.println("总库存数："+totalCount);
-        System.out.println("库存商品总金额："+totalPrice);
+        int totalCount = macCount + thinkpadCount + asusCount;
+        double totalPrice = (macPrice * macCount) + (thinkpadPrice * thinkpadCount) + (asusPrice * asusCount);
+        System.out.println("总库存数：" + totalCount);
+        System.out.println("库存商品总金额：" + totalPrice);
 
 
     }
